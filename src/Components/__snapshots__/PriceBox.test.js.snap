@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceBox renders correctly 1`] = `
+<div
+  className="PriceBox ask"
+  onClick={[Function]}
+>
+  <div
+    className="PriceBoxHeader floatRight"
+  >
+    EURUSD
+  </div>
+  <div
+    className="PriceBoxHeader floatLeft"
+  >
+    1.23
+  </div>
+  <div
+    className="PriceBoxBody"
+  >
+    <span
+      className="mediumPrice"
+    >
+       
+      45
+    </span>
+     
+    <span
+      className="smallPrice"
+    >
+      6
+    </span>
+  </div>
+</div>
+`;
+
+exports[`PriceBox renders correctly 2`] = `
+<div
+  className="PriceBox bid"
+  onClick={[Function]}
+>
+  <div
+    className="PriceBoxHeader floatLeft"
+  >
+    EURUSD
+  </div>
+  <div
+    className="PriceBoxHeader floatRight"
+  >
+    1.23
+  </div>
+  <div
+    className="PriceBoxBody"
+  >
+    <span
+      className="mediumPrice"
+    >
+       
+      45
+    </span>
+     
+    <span
+      className="smallPrice"
+    >
+      6
+    </span>
+  </div>
+</div>
+`;

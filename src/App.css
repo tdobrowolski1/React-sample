@@ -1,0 +1,60 @@
+.TickerWindow{
+  width:300px;
+  height:190px;
+  margin: 20px;
+  padding: 5px;
+  border : 1px solid;
+}
+
+.TickerHeader{
+  height:20px;
+  width:100%;
+  margin-bottom:10px;
+  float:left;
+  background-color:gray;
+}
+
+.PriceBoxContainer{
+  float:left;
+}
+
+.PriceBox{
+  width:130px;
+  height:100px;
+  margin:10px;
+  color:white;
+
+}
+.ask{
+  background-color:blue;
+
+}
+.bid{
+  background-color: red;
+
+}
+.floatRight {
+  float:right;
+}
+.floatLeft{
+  float:left;
+
+}
+.PriceBoxBody{
+ 
+  padding-top:30px;
+  padding-left:30px;
+}
+
+.PriceBoxHeader{
+  padding: 5px 5px 5px 5px;
+  font-size :12px;
+
+}
+
+.smallPrice{
+  font-size:15px;
+}
+.mediumPrice{
+  font-size:30px
+}
